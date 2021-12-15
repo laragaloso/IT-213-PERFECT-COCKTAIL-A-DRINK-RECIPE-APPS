@@ -40,6 +40,7 @@ function getCocktails(e){
 
     // Check something is on the search input
     if(searchTerm === ''){
+        
         // Call user interface print message
         ui.printMessage('Please add something into the form', 'danger');
 
@@ -191,5 +192,5 @@ function resultsDelegation(e) {
             })
 
         }
-        
+
     }
